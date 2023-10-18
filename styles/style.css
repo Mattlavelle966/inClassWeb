@@ -1,0 +1,53 @@
+/*
+theme below
+#EAEAEA
+#893168
+#4A1942
+#2E1C2B
+#050404
+*/
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient(180deg, #2E1C2B 0%, #4A1942 35%, #893168);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+.nav-bar{
+    padding: 0px 10px 0px 10px;
+    border-bottom:solid #EAEAEA;
+    border-radius: 15%;
+}
+img{
+    padding: .2em;
+    border: #EAEAEA solid .1em;
+}
+a{
+    font-size: x-large;
+    text-decoration: none;
+    color: #EAEAEA;
+}
+p{
+    max-width: 80%;
+}
+table, th, tr{
+    color: #EAEAEA;
+    font-size: x-large;
+    border-style: double;
+    border-width: .4em;
+    border-color: #050404;
+}
+table td{
+    border-style: solid;
+    border-color: #050404;
+}
+footer{
+    margin-top: 3em;
+}
+h1{
+    color: #EAEAEA;
+}
+h2{
+    color: #EAEAEA;
+}

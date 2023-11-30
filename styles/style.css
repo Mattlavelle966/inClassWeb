@@ -7,6 +7,7 @@ theme below
 #050404
 */
 body{
+    font-size: large;
     font-family: 'Times New Roman', Times, serif;
     background: linear-gradient(180deg, #2E1C2B 0%, #4A1942 35%, #893168);
     display: flex;
@@ -15,10 +16,43 @@ body{
     min-height: 100vh;
     color: #EAEAEA;
 }
-.nav-bar{
+.new-bg{
+    background: linear-gradient(180deg, #502449 0%, #4A1942 35%, #893168);
+}
+.navflexcontainer{
+    flex: wrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     padding: 0px 10px 0px 10px;
     border-bottom:solid #EAEAEA;
     border-radius: 15%;
+    margin-bottom: 2em;
+}
+.flexitem{
+    text-shadow:.2em .2em 0 rgba(0,0,0,0.2);
+    padding: .1em;
+}
+.flexitem-space{
+    width: 1em;
+}
+.maincontainer{
+    min-width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footercontainer{
+    color: #EAEAEA;
+    background-color: #4A1942;
+    margin: .5em;
+    text-align: center;
+    padding: .5em;
+    border-radius: 10%;
+}
+.design{
+    color: #050404;
+    font-style: italic;
 }
 img{
     padding: .2em;
@@ -28,6 +62,10 @@ a{
     font-size: x-large;
     text-decoration: none;
     color: #EAEAEA;
+}
+a:hover{
+    transition-duration: .2s;
+    opacity: .5;
 }
 p{
     color: #EAEAEA;
@@ -46,6 +84,10 @@ table td{
     border-style: solid;
     border-color: #050404;
 }
+table{
+    margin: auto;
+    width: 80%;
+}
 footer{
     margin-top: 3em;
 }
@@ -54,4 +96,72 @@ h1{
 }
 h2{
     color: #EAEAEA;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+ul{
+    list-style-type: square;
+}
+form{
+    color: #ffffff;
+    margin: 0 auto;
+    background: #2E1C2B;
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    font-size: x-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', ;
+}
+form, h3{
+    margin-bottom: 0px;
+    align-items: center;
+}
+input{
+    margin: 10px;
+    color: #ffffff;
+    background-color: #4A1942;
+    padding-left:15px;
+    width: 400px;
+    height:50px;
+    border: solid 2px #beb4b2;
+}
+button{
+    color: #ffffff;
+    background-color: #4A1942;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:50px;
+}
+textarea{
+    margin: 10px;
+    padding-top: 10px;
+    padding-left:15px;
+    color: #ffffff;
+    background-color: #4A1942;
+    width: 400px;
+    height:400px;
+    border: solid 2px #beb4b2;
+}
+fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+    height: 10%;
+}
+
+#checkbox{
+    background-color: #502449;
+    width: 1em;
+    height: 1em;
+}
+select{
+    background-color: #4A1942;
+    color: #ffffff;
+}
+#jumpTop{
+    border: #2E1C2B;
 }

@@ -3,23 +3,66 @@
 <html lang = "en">
 <head>
 <meta charset = "UTF-8">
-<title>ADM Form</title>
+<title>ADM Home</title>
 <link rel="stylesheet" href="./styles/style.css">
+<script src="./js/date.js" defer></script>
 </head>
 <body>
     <h1>Amelia De Marco</h1>
-    <div class="nav-bar">
-        <a href="./index.html">Home</a>
-        <a href="./table.html">Table</a>
-        <a href="./images.html">Images</a>
-        <a href="./form.html">Form</a>
+    <div class="navflexcontainer">
+        <div class="flexitem">
+            <a href="./index.html">Home</a>
+        </div>
+        <div class="flexitem">
+            <a href="./table.html">Table</a>
+        </div>
+        <div class="flexitem">
+            <a href="./Images.html">Images</a>
+        </div>
+        <div class="flexitem">
+            <a href="./form.html">Form</a>
+        </div>
+        <div class="flexitem-space">
+            &nbsp;
+        </div>
+        <div class="flexitem">
+            <a href="https://x.com/"><img src="./pics/logo-black.png" alt="twitter link" width="20" height="20"></a>
+        </div>
+        <div class="flexitem">
+            <a href="https://www.facebook.com/"><img src="./pics/facebook.png" alt="facebook link" width="20" height="20"></a>
+        </div>
     </div>
-    <p>
-        <a href="https://www.facebook.com/"><img src="./pics/facebook.png" alt="facebook link" width="20" height="20"></a>
-        <a href="https://x.com/"><img src="./pics/logo-black.png" alt="twitter link" width="20" height="20"></a>
-    </p>
-    <footer>
-        <address><a href="#">Matthew lavelle | matthew.lavelle@student.slc.on.ca | current date</a></address>
-    </footer>
+    <div class="maincontainer">
+        <div class="formcontainer">
+            <form action="" method="post">
+                <input type="text" name="name" placeholder="Name" required="">
+                <input type="text" name="email" placeholder="Email" required="">
+                <fieldset>
+                    <select name="options" id="options">
+                        <option value="dark">Dark</option>
+                        <option value="light">Light</option>
+                        <option value="dim">Dim</option>
+                    </select>
+                    <label for="checkbox">warranty</label>
+                    <input id="checkbox" type="radio" placeholder="themed">
+                    <label for="checkbox">Theme's</label>
+                    <input id="checkbox" type="radio" placeholder="themed">
+                    <label for="checkbox">Premium</label>
+                    <input id="checkbox" type="checkbox" placeholder="Premium">
+                    <label for="checkbox">Color Scheme</label>
+                    <input id="checkbox" type="checkbox" placeholder="colorscheme">
+                </fieldset>
+                <input type="date" name="email" placeholder="Email" required="">
+                <input type="time" name="email" placeholder="Email" required="">
+                <textarea name="message" placeholder="Message"></textarea>
+                <button type="submit" name="submit"><b>Send</b></button>
+            </form>
+        </div>
+    </div>
+    <div class="footercontainer">
+        <footer>
+            <address><a href="https://www.gmail.com">Matthew lavelle | matthew.lavelle@student.slc.on.ca | <div id="currentdate"></div></a></address>
+        </footer>
+    </div>
 </body>
 </html>

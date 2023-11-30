@@ -5,46 +5,64 @@
 <meta charset = "UTF-8">
 <title>ADM Home</title>
 <link rel="stylesheet" href="./styles/style.css">
+<script src="./js/date.js" defer></script>
 </head>
 <body>
     <h1>Amelia De Marco</h1>
-    <div class="nav-bar">
-        <a href="./index.html">Home</a>
-        <a href="./table.html">Table</a>
-        <a href="./images.html">Images</a>
-        <a href="./form.html">Form</a>
+    <div class="navflexcontainer">
+        <div class="flexitem">
+            <a href="./index.html">Home</a>
+        </div>
+        <div class="flexitem">
+            <a href="./table.html">Table</a>
+        </div>
+        <div class="flexitem">
+            <a href="./Images.html">Images</a>
+        </div>
+        <div class="flexitem">
+            <a href="./form.html">Form</a>
+        </div>
+        <div class="flexitem-space">
+            &nbsp;
+        </div>
+        <div class="flexitem">
+            <a href="https://x.com/"><img src="./pics/logo-black.png" alt="twitter link" width="20" height="20"></a>
+        </div>
+        <div class="flexitem">
+            <a href="https://www.facebook.com/"><img src="./pics/facebook.png" alt="facebook link" width="20" height="20"></a>
+        </div>
     </div>
-    <p>
-        <a href="https://www.facebook.com/"><img src="./pics/facebook.png" alt="facebook link" width="20" height="20"></a>
-        <a href="https://x.com/"><img src="./pics/logo-black.png" alt="twitter link" width="20" height="20"></a>
-    </p>
-    <h2>Grapic Design</h2>
-    <p> 
-        My name is Amelia,
-        I am a freelance graphic designer and a pony-mad girl.
-        My specialty is logo design & branding for horse related businesses - coaches, grooms, professional riders, yards, physios, vets, farriers...younameit!        
-        Having been immersed in the horse world since I was a kid, it is easy for me to understand the nature of the various equine businesses and therefore to capture their mission with the design.
-        My logos are entirely bespoke and I never use stock images : every logo is crafted uniquely for the individual business.
-        Although horses are my main focus,I have had happy clients from other sectors and I am always enthusiastic about taking on new challenges-so dont hesitate to contact me even if you have no thing to do with horses!
-        Looking forward to meeting you.
-    </p>
-    <h2>Logo Design</h2>
-    <p>
-        To get a general idea of what you are looking for. Scheduled call (optional)-to fur ther discuss ideas & expectations. 2 to 4 concept proposals. 3 re-worksincluded. Vector & Printable deliverables-these include .ai, .eps, .pdf, .png, . jpg which are all the formats you might need to work with manufacturers as well as to use the logo yourself. Unlimited support after delivery-should your equire support when using your logo or adaptationstos pe ci fi cuses I am alwaysone email away!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, libero aperiam nobis exercitationem doloribus distinctio? Nobis a temporibus tempora mollitia. Laborum explicabo minus nisi, perferendis facere neque odit similique excepturi numquam aliquid quasi tempore. Hic, optio quidem! Tempora quibusdam quasi cupiditate vitae. Consequuntur explicabo, sequi alias labore at quos distinctio.
-    </p>
-    <ol>
-        <li>SERVICES</li>
-        <li>PORTFOLIO</li>
-        <li>PROCESS
-            <ul>
-                <li>Package</li>
-                <li>Payment</li>
-            </ul>
-        </li>
-        <li>CONTACT</li>
-    </ol>
-    <footer>
-        <address><a href="#">Matthew lavelle | matthew.lavelle@student.slc.on.ca | current date</a></address>
-    </footer>
+    <div class="maincontainer">
+        <h2>Grapic <span class="design">Design</span></h2>
+        <p> 
+            My name is Amelia,
+            I am a freelance graphic designer and a pony-mad girl.
+            My specialty is logo <span class="design">Design</span> & branding for horse related businesses - coaches, grooms, professional riders, yards, physios, vets, farriers...younameit!        
+            Having been immersed in the horse world since I was a kid, it is easy for me to understand the nature of the various equine businesses and therefore to capture their mission with the <span class="design">Design</span>.
+            My logos are entirely bespoke and I never use stock images : every logo is crafted uniquely for the individual business.
+            Although horses are my main focus,I have had happy clients from other sectors and I am always enthusiastic about taking on new challenges-so dont hesitate to contact me even if you have no thing to do with horses!
+            Looking forward to meeting you.
+        </p>
+        <h2>Logo <span class="design">Design</span></h2>
+        <p>
+            To get a general idea of what you are looking for. Scheduled call (optional)-to fur ther discuss ideas & expectations. 2 to 4 concept proposals. 3 re-worksincluded. Vector & Printable deliverables-these include .ai, .eps, .pdf, .png, . jpg which are all the formats you might need to work with manufacturers as well as to use the logo yourself. Unlimited support after delivery-should your equire support when using your logo or adaptationstos pe ci fi cuses I am alwaysone email away!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium, libero aperiam nobis exercitationem doloribus distinctio? Nobis a temporibus tempora mollitia. Laborum explicabo minus nisi, perferendis facere neque odit similique excepturi numquam aliquid quasi tempore. Hic, optio quidem! Tempora quibusdam quasi cupiditate vitae. Consequuntur explicabo, sequi alias labore at quos distinctio.
+        </p>
+        <ol>
+            <li>SERVICES</li>
+            <li>PORTFOLIO</li>
+            <li>PROCESS
+                <ul>
+                    <li>Package</li>
+                    <li>Payment</li>
+                </ul>
+            </li>
+            <li>CONTACT</li>
+        </ol>
+    </div>
+    <div class="footercontainer">
+        <footer>
+            <address><a href="https://www.gmail.com">Matthew lavelle | matthew.lavelle@student.slc.on.ca | <div id="currentdate"></div></a></address>
+        </footer>
+    </div>
 </body>
 </html>

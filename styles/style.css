@@ -97,6 +97,16 @@ h1{
 h2{
     color: #EAEAEA;
 }
+.imgContainer{
+    display: flex;
+    flex: wrap;
+    flex-direction: column;
+}
+.imgSubCon{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
 ol{
     list-style-type: upper-alpha;
 }

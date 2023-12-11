@@ -1,10 +1,9 @@
 
 var currentDate = new Date();
 var month, day, year;
-month = currentDate.getMonth();
+month = currentDate.getMonth() + 1;
 day = currentDate.getDate();
 year = currentDate.getFullYear();
-var currentDay = day + "/" + getMonthString(month) + "/" + year;
 
 
 function showdate(){

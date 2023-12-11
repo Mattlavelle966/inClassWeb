@@ -49,6 +49,7 @@ body{
     text-align: center;
     padding: .5em;
     border-radius: 10%;
+    width: 80%;
 }
 .design{
     color: #050404;
@@ -179,4 +180,8 @@ select{
 }
 #jumpTop{
     border: #2E1C2B;
+}
+address{
+    margin-bottom:5%;
+    width: 100%;
 }
